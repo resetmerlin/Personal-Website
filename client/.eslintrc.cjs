@@ -10,6 +10,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
         'plugin:prettier/recommended',
+        'plugin:tailwindcss/recommended',
     ],
     overrides: [
         {
@@ -31,5 +32,6 @@ module.exports = {
     plugins: ['@typescript-eslint', 'react', 'prettier'],
     rules: {
         'react/react-in-jsx-scope': 0,
+        'import/no-extraneous-dependencies': 'off',
     },
 }
