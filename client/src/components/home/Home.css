@@ -1,0 +1,28 @@
+#home__title {
+    top: 30%;
+    left: -30%;
+}
+#home__subtitle-0 {
+    top: 31%;
+    right: -35%;
+}
+#home__subtitle-1 {
+    top: 38%;
+    right: -38%;
+}
+#home__subtitle-2 {
+    top: 45%;
+    right: -39%;
+}
+#home__subtitle-3 {
+    top: 52%;
+    right: -38%;
+}
+
+#home__subtitle-4 {
+    top: 59%;
+    right: -37%;
+}
+.header__logo {
+    border: 5px solid rgb(110, 110, 110);
+}
