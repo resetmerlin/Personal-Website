@@ -1,0 +1,6 @@
+import { PropsWithChildren } from 'react'
+import './About.css'
+
+export default function AboutSection({ children }: PropsWithChildren) {
+    return <section className="flex h-full w-full px-10">{children}</section>
+}
