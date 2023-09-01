@@ -17,7 +17,7 @@ export default function IntroNav({
             <span className="inline-block	w-72 py-2.5 text-9xl font-semibold ">
                 {page}
             </span>
-            <div className="mt-7 flex items-start xl:scale-105 ">
+            <div className="mt-7 flex items-start xl:scale-105 2xl:scale-100">
                 <i className="bx bx-minus text-5xl	 leading-6 " />
                 <div className="ml-4 flex flex-col ">
                     <span className="mb-3	text-2xl font-semibold	">Merlin</span>
