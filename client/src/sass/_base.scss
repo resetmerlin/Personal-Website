@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+}
+
+#root {
+    height: inherit;
+    width: inherit;
+}
+
+#container {
+    height: 80%;
+    width: 100%;
+}
+
+#footer {
+    height: 10%;
+}
+#header {
+    height: 10%;
+}
