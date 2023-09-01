@@ -1,0 +1,36 @@
+#earth-project {
+    position: fixed;
+    left: -23%;
+
+    width: 52rem;
+    height: 52rem;
+    z-index: 100;
+    background: radial-gradient(
+            closest-side,
+            rgb(0, 0, 0) 98.5%,
+            transparent 82% 100%
+        ),
+        conic-gradient(from 62deg, rgb(129, 129, 129) 14%, rgb(22, 22, 22) -2%);
+}
+
+@media (min-width: 1024px) {
+    #earth-project {
+        width: 48rem;
+        height: 48rem;
+        left: -23%;
+    }
+}
+
+#slider {
+    perspective: 500px;
+}
+#slider-wrapper {
+    scroll-snap-align: center;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+#project-left {
+    border-right-width: 2px;
+    border-color: rgb(82 82 91);
+}
