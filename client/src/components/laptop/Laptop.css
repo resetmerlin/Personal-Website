@@ -1,0 +1,22 @@
+.laptop {
+    position: relative;
+    margin: auto;
+    max-width: 80rem;
+}
+.laptop .laptop__screen {
+    position: relative;
+    z-index: 1;
+    padding: 3%;
+    border-radius: 2rem;
+    background: #ecf1f7;
+    background-image: linear-gradient(to bottom, #333333, #111);
+    box-shadow: 0 0.1rem 0 #cfcfcf;
+    border: 2px solid #585858;
+}
+.laptop .laptop__screen img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+    background: #000;
+}
