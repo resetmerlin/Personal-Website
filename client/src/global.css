@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#earth-wrapper {
+    width: 52rem;
+    height: 52rem;
+    z-index: 100;
+    background: radial-gradient(
+            closest-side,
+            rgb(0, 0, 0) 98.5%,
+            transparent 82% 100%
+        ),
+        conic-gradient(from 62deg, rgb(129, 129, 129) 14%, rgb(22, 22, 22) -2%);
+
+    transition: all ease-in-out 3s;
+}
+
+@media (max-width: 500px) {
+    #earth-wrapper {
+        width: 33rem;
+        height: 33rem;
+    }
+}
+
+@media (min-width: 640px) {
+    #earth-wrapper {
+        width: 43rem;
+        height: 43rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #earth-wrapper {
+        width: 52rem;
+        height: 52rem;
+    }
+}
+.center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#shadow {
+    -webkit-box-shadow: 0px 0px 92px 51px rgba(56, 56, 56, 0.76);
+    -moz-box-shadow: 0px 0px 92px 51px rgba(56, 56, 56, 0.76);
+    box-shadow: 0px 0px 92px 51px rgba(56, 56, 56, 0.76);
+    width: 23rem;
+    height: 23rem;
+    z-index: 0;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fafafa;
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: black;
+}
