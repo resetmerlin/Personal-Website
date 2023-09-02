@@ -23,3 +23,7 @@
 ### Project Page
 ![personal website project paget](https://github.com/resetmerlin/Personal-Website/assets/108568153/2eb8cce0-cdcd-4b0c-a5d2-9beeec7ffda7)
 
+
+## Source
+- [3d Earth model](https://sketchfab.com/3d-models/earth-c2e4294c32ea4d8b850e152fc26aeeb4)
+- [Design](https://dribbble.com/shots/16604317-Personal-Portfolio-Landing-Page)
