@@ -2,8 +2,8 @@
 
 
 ## [Personal-Website](resetmerlin.onrender.com/)
-### 간략한 자기 소개를 위한 개인 웹 사이트(A Personal website for brief self-introduction)
-
+### Personal Website?
+- 간략한 자기 소개를 위한 개인 웹 사이트(A Personal website for brief self-introduction)
 
 
 |역할(Role)|종류(type)|  
