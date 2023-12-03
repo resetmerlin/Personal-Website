@@ -6,6 +6,7 @@ import { Fog } from '../../components/three/parts/fog'
 import { Lights } from '../../components/three/parts'
 import { Earth } from '../../components/three/object/earth'
 import { Subtitle, Title } from '../../components/writing'
+import React from 'react'
 
 export default function AboutPage() {
     return (
@@ -37,19 +38,20 @@ export default function AboutPage() {
                         <img
                             src="./profile.png"
                             alt="profile"
-                            className="h-96	w-96 rounded-full border-8	border-neutral-700	 p-8"
+                            className="h-96	w-96 rounded-full border-8	border-neutral-700	 p-8 object-cover"
                             id="about__profile"
                         />
                         <div className="flex w-4/6 flex-col justify-center 	">
-                            <Title className="sm:text-7xl	md:text-8xl">
+                            <Title className="sm:text-7xl	md:text-7xl">
                                 Hi my name is Merlin
                             </Title>
                             <Subtitle>
-                                I'm looking for a job related to frontend
-                                development.
-                                <br /> I also have an interest in learning
-                                methodology <br /> so that I can improve my
-                                development skills.
+                                I'm a frontend developer and currently looking
+                                for a job
+                                <br />I have experience launching a web service
+                                with my teammates for 5 months. I also have
+                                experience working with designers and backend
+                                developers
                             </Subtitle>
                         </div>
                     </About.Item>
