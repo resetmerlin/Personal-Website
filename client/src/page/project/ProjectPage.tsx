@@ -9,6 +9,7 @@ import { Three } from '../../components/three'
 import { Fog } from '../../components/three/parts/fog'
 import { Lights } from '../../components/three/parts'
 import { Earth } from '../../components/three/object/earth/Earth'
+import React from 'react'
 
 export default function Page() {
     const introVariants = {
@@ -62,7 +63,7 @@ export default function Page() {
 
                             <Project.Source
                                 github="https://github.com/DKU-D-Coding-teams/2023-1-Team3"
-                                obsidian="https://publish.obsidian.md/resetmerlin/Merlin's+blog/Portfolio/DLink/%EC%A0%84%EC%B2%B4%EC%A0%81%EC%9D%B8+%EA%B8%80%EC%9D%84+%EC%9D%BD%EA%B8%B0%EC%A0%84%EC%97%90..."
+                                obsidian="https://publish.obsidian.md/resetmerlin/Merlin's+Blog/Portfolio/DLink/DLink"
                             />
                         </motion.div>
                     </Project.Item>
@@ -74,19 +75,44 @@ export default function Page() {
                             variants={introVariants}
                         >
                             <Title className="sm:text-7xl	md:text-8xl">
-                                # NikeSnkrShop
+                                # NikeSnkrs eCommerce
                             </Title>
                             <Subtitle>
-                                3d 뷰가 가능한 나이키 스니커즈 샵
+                                나이키 스니커즈 샵
                                 <br />
-                                구매하지 않고도 3d를 통해 제품을 간접적으로 볼
-                                수 있는 샵
+                                MERN stack, MongoDB, Express, React, Node js를
+                                활용한 Nike Snkrs 샵
                                 <br />
                             </Subtitle>
 
                             <Project.Source
-                                github="https://github.com/resetmerlin/NikeSnkrShop"
-                                obsidian="https://publish.obsidian.md/resetmerlin/Merlin's+blog/Portfolio/Nike+Resell+eCommerce/Pdf/%EB%85%B8%ED%8A%B8+%EC%A0%95%EB%A6%AC+pdf"
+                                github="https://github.com/resetmerlin/NikeSnkrs-eCommerce"
+                                obsidian="https://github.com/resetmerlin/NikeSnkrs-eCommerce"
+                            />
+                        </motion.div>
+                    </Project.Item>
+
+                    <Project.Item className="flex-col">
+                        <Laptop />
+                        <motion.div
+                            className=" flex  h-2/5 w-10/12 flex-col justify-center 	opacity-0 2xl:scale-90 	"
+                            animate={['show']}
+                            variants={introVariants}
+                        >
+                            <Title className="sm:text-7xl	md:text-8xl">
+                                # NikeSnkrs eCommerce Next js
+                            </Title>
+                            <Subtitle>
+                                나이키 스니커즈 샵
+                                <br />
+                                Next js를 사용한 NikeSnkrs eCommerce의 새로운
+                                버전
+                                <br />
+                            </Subtitle>
+
+                            <Project.Source
+                                github="https://github.com/resetmerlin/NikSnkrs-Nextjs"
+                                obsidian="https://github.com/resetmerlin/NikSnkrs-Nextjs"
                             />
                         </motion.div>
                     </Project.Item>
