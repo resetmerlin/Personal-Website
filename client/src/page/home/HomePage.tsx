@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import { motion } from 'framer-motion-3d'
+import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Layout } from '../../components/layouts'
 import { Home } from '../../components/home'
