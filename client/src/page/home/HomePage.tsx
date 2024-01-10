@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { Layout } from '../../components/layouts'
 import { Home } from '../../components/home'
 import { IntroNav } from '../../components/introNav'
@@ -10,7 +9,6 @@ import { Fog } from '../../components/three/parts/fog'
 import { Lights } from '../../components/three/parts'
 
 export default function HomePage() {
-    const location = useLocation().pathname
     const [latency, setLatency] = useState(false)
 
     useEffect(() => {

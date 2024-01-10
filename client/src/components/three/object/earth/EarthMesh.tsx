@@ -5,7 +5,7 @@ import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
 import { Euler, MeshProps, useFrame } from '@react-three/fiber'
 import { motion } from 'framer-motion-3d'
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 
 type GLTFResult = GLTF & {
@@ -27,11 +27,12 @@ export default function EarthMesh({
     ...props
 }: IProps) {
     const { nodes, materials } = useGLTF('/earth.glb') as GLTFResult
-    const myMesh = useRef()
+    const myMesh = useRef<THREE.Mesh>(null)
     const location = useLocation().pathname
 
     useFrame(() => {
-        if (location !== '/') myMesh.current.rotation.z -= 0.01
+        if (location !== '/' && myMesh.current)
+            myMesh.current.rotation.z -= 0.01
     })
     return (
         <motion.mesh

@@ -23,7 +23,7 @@ export default function Phone() {
                 </div>
                 <div className="screen">
                     <img src="./dlink-1.jpg" alt="dlink-screen" />
-                    <video loop="loop" autoPlay="autoplay" muted="muted">
+                    <video loop autoPlay muted>
                         <source src="dlink.mp4" type="video/mp4" />
                     </video>
 

@@ -9,7 +9,6 @@ import { Three } from '../../components/three'
 import { Fog } from '../../components/three/parts/fog'
 import { Lights } from '../../components/three/parts'
 import { Earth } from '../../components/three/object/earth/Earth'
-import React from 'react'
 
 export default function Page() {
     const introVariants = {
