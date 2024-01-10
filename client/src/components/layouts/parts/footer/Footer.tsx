@@ -37,7 +37,14 @@ export default function Footer() {
                 </Link>
             </div>
 
-            <div className="flex h-full w-40 justify-evenly text-center ">
+            <div className="flex h-full w-44 justify-evenly text-center ">
+                <Link
+                    to="https://blog-two-bay-48.vercel.app/"
+                    className="mx-1.5 flex items-center text-2xl "
+                    target="_blank"
+                >
+                    <i className="bx bxs-edit" />
+                </Link>
                 <Link
                     to="https://www.linkedin.com/in/merlin-jo-79428a272/"
                     className="mx-1.5 flex items-center text-2xl "
